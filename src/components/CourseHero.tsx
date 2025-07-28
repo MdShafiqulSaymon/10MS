@@ -9,7 +9,7 @@ const CourseHero = () => {
   console.log(title, loading, error);
   return (
     <div className="bg-gradient-to-br from-indigo-900 via-purple-900 to-blue-900 text-white relative overflow-hidden">
-    {/* Background decorative elements */}
+      {/* Background decorative elements */}
       <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 via-purple-600/10 to-indigo-600/20"></div>
       <div className="absolute top-0 left-0 w-96 h-96 bg-gradient-to-br from-yellow-400/10 to-orange-400/5 rounded-full -translate-x-48 -translate-y-48 blur-3xl"></div>
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-gradient-to-br from-pink-400/10 to-purple-400/5 rounded-full translate-x-48 translate-y-48 blur-3xl"></div>
@@ -72,29 +72,17 @@ const CourseHero = () => {
               </div>
               {/* Right Content - Stats Grid */}
               <div className="w-full lg:w-auto lg:pl-8">
-                <div className="grid grid-cols-2 lg:grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 lg:grid-cols-1 gap-4">
                   <div className="text-center px-3 py-2 bg-gradient-to-br from-white/15 to-white/5 rounded-xl backdrop-blur-sm border border-white/10 hover:border-white/20 transition-all duration-200">
-                  <div className="flex flex-col sm:flex-row gap-1 items-center justify-center">
-                    <Clock className="w-5 h-5 text-blue-300 flex-shrink-0" />
-                    <div className="text-sm sm:text-lg font-bold">45+ Hours Content</div>
+                    <div className="flex flex-col sm:flex-row gap-1 items-center justify-center">
+                      <Clock className="w-5 h-5 text-blue-300 flex-shrink-0" />
+                      <div className="text-sm sm:text-lg font-bold">45+ Hours Content</div>
                     </div>
                   </div>
                   <div className="text-center px-3 py-2 bg-gradient-to-br from-white/15 to-white/5 rounded-xl backdrop-blur-sm border border-white/10 hover:border-white/20 transition-all duration-200">
                     <div className="flex flex-col sm:flex-row gap-1 items-center justify-center">
                     <Users className="w-5 h-5 text-green-300 flex-shrink-0" />
                     <div className="text-sm sm:text-lg font-bold">15,000+ Students</div>
-                    </div>
-                  </div>
-                  <div className="text-center px-3 py-2 bg-gradient-to-br from-white/15 to-white/5 rounded-xl backdrop-blur-sm border border-white/10 hover:border-white/20 transition-all duration-200">
-                    <div className="flex flex-col sm:flex-row gap-1 items-center justify-center">
-                    <Award className="w-5 h-5 text-yellow-300 flex-shrink-0" />
-                    <div className="text-sm sm:text-lg font-bold">Band 7+ Score</div>
-                    </div>
-                  </div>
-                  <div className="text-center px-3 py-2 bg-gradient-to-br from-white/15 to-white/5 rounded-xl backdrop-blur-sm border border-white/10 hover:border-white/20 transition-all duration-200">
-                  <div className="flex flex-col sm:flex-row gap-1 items-center justify-center">
-                    <BookOpen className="w-5 h-5 text-purple-300 flex-shrink-0" />
-                    <div className="text-sm sm:text-lg font-bold">Lifetime Access</div>
                     </div>
                   </div>
                 </div>
